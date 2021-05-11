@@ -17,6 +17,6 @@
 		"build:example-button": "lerna run build --scope example-button --stream",
 		"build:example-app": "lerna run build --scope example-app --scope example-button --stream",
 		"setup": "lerna bootstrap",
-		"kill": "node ./test.js"
+		"kill": "node ./kill.js"
 	}
 }
