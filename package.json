@@ -12,7 +12,7 @@
 		"create-react-app": "^4.0.3"
 	},
 	"scripts": {
-		"start:example-app": "lerna run start --scope example-app --scope example-button --stream",
+		"start:example-app": "lerna run start --scope example-app --scope example-button --parallel",
 		"build:example-button": "lerna run build --scope example-button --stream",
 		"build:example-app": "lerna run build --scope example-app --scope example-button --stream",
 		"setup": "lerna bootstrap"
